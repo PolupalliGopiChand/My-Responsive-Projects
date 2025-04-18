@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding-top: 70px;
+  background-color: #191a1d;
+  color: #ffffff;
+}
+
+.brand-logo {
+  font-size: 28px;
+  font-weight: 700;
+  border: 2px solid #4b6cc1;
+  padding: 6px 12px;
+  color: #4b6cc1 !important;
+}
+
+.navbar-nav .nav-link {
+  color: #e0e0e0 !important;
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #4b6cc1 !important;
+}
+
+.hero-section {
+  min-height: 100vh;
+  background-color: #191a1d;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  color: #aaaaaa;
+}
+
+.highlight {
+  color: #4b6cc1;
+}
+
+.btn-primary {
+  background-color: #4b6cc1;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #3f5bb5;
+}
+
+@media (max-width: 767px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .brand-logo {
+    font-size: 22px;
+  }
+}
