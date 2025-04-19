@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="product-section py-5">
+        <div class="container">
+            <h1 class="mb-4 text-center">Our Products</h1>
+            <div class="row">
+
+                <!-- Smart Headphones -->
+                <article class="col-12 col-md-6 mb-4">
+                    <div class="product-card headphones-card text-white p-4">
+                        <h2>Smart Headphones</h2>
+                        <p>Headphones with Deep Bass, Sound, Touch</p>
+                        <button class="btn btn-light btn-custom" data-toggle="modal" data-target="#headphonesModal">
+                            View Details
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Laptops -->
+                <article class="col-12 col-md-6 mb-4">
+                    <div class="product-card laptops-card text-white p-4">
+                        <h2>Laptops</h2>
+                        <p>Explore vast selection of Laptops</p>
+                        <button class="btn btn-light btn-custom" data-toggle="modal" data-target="#laptopsModal">
+                            View Details
+                        </button>
+                    </div>
+                </article>
+
+                <!-- See All Offers -->
+                <div class="col-12 text-right">
+                    <a class="see-all-offers" href="#">See All Offers
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-arrow-right ml-1" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 
+                                .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Headphones Modal -->
+    <div class="modal fade" id="headphonesModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sony WH-1000XM4 Noise Cancelling Headphones</h5>
+                    <button class="close" data-dismiss="modal"><span>&times;</span></button>
+                </div>
+                <div class="modal-body product-details">
+                    <p>Get Best Smart Headphones Prices Online in India. Select from the best range of Headphones from most popular brands...</p>
+                    <p><strong>Voice Assistant:</strong> Alexa, Google Assistant & Siri</p>
+                    <p><strong>Smart Listening:</strong> Ambient sound with top noise cancellation</p>
+                    <p><strong>Battery:</strong> 30 hours on single charge</p>
+                    <p><strong>Quick Charging:</strong> 10 min charge = 5 hrs play</p>
+                    <p><strong>Touch Controls:</strong> Track change via fingertip</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-outline-dark btn-sm">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Laptops Modal -->
+    <div class="modal fade" id="laptopsModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Inspiron 14 5490 Core i5 Laptop</h5>
+                    <button class="close" data-dismiss="modal"><span>&times;</span></button>
+                </div>
+                <div class="modal-body product-details">
+                    <p>Get Best Laptop Prices Online in India. Select from the best range of Laptops from most popular brands...</p>
+                    <p><strong>Performance:</strong> Core i5 3rd Gen, 2.6 Ghz, 4 GB RAM</p>
+                    <p><strong>Storage:</strong> 500 GB HDD, SATA, 7200 RPM</p>
+                    <p><strong>Battery:</strong> Li-ion, 6 Cell</p>
+                    <p><strong>Design:</strong> 14", 1366x768, 2.07 Kg</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-outline-dark btn-sm">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
